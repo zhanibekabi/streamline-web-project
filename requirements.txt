@@ -31,7 +31,7 @@ pillow==10.4.0
 protobuf==4.25.5
 pyarrow==18.0.0
 pycparser==2.22
-pydeck==0.9.1s
+pydeck==0.9.1
 pyee==12.1.1
 Pygments==2.18.0
 pylibsrtp==0.10.0
