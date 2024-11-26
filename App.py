@@ -1,5 +1,5 @@
 import streamlit as st
-from Pages import Hosme, DataFrame, Videos, Project3
+from Pages import Home, DataFrame, Videos, Project3
 from streamlit_navigation_bar import st_navbar
 import os
 from PIL import Image
