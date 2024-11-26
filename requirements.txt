@@ -24,14 +24,14 @@ MarkupSafe==3.0.2
 mdurl==0.1.2
 narwhals==1.13.2
 numpy==1.26.4
-opencv-python==4.10.0.84
+opencv-python-hedless
 packaging==24.1
 pandas==2.2.3
 pillow==10.4.0
 protobuf==4.25.5
 pyarrow==18.0.0
 pycparser==2.22
-pydeck==0.9.1
+pydeck==0.9.1s
 pyee==12.1.1
 Pygments==2.18.0
 pylibsrtp==0.10.0
