@@ -7,6 +7,7 @@ class DataFrame:
     def __init__(self):
         pass
     def app(self):
+        st.write("##")
         st.title('Creation of DataFrame')
         def load_data(file):
             if file is not None:

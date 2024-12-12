@@ -1,5 +1,5 @@
 import streamlit as st
-from Pages import Home, DataFrame, Videos, Project3
+from Pages import Home, DataFrame, Videos, DataAnalyze
 from streamlit_navigation_bar import st_navbar
 import os
 from PIL import Image
@@ -18,7 +18,7 @@ if not os.path.exists(logo_path):
     logo_path = None  # Handle missing logo gracefully
 
 # Pages and Navbar Configuration
-pages = ["Home", "DataFrame", "Videos", "Project3"]
+pages = ["Home", "DataFrame", "Videos", "DataAnalyze"]
 styles = {
     "nav": {
         "background": "black",  # Gradient color
@@ -66,8 +66,9 @@ elif page == "DataFrame":
     DataFrame.DataFrame().app()
 elif page == "Videos":
     Videos.Videos().app()
-elif page == "Project3":
-    Project3.Project3().app()
+elif page == "DataAnalyze":
+    DataAnalyze.DataAnalyze().app()
 else:
     st.error("Page not found. Redirecting to Home.")
     Home.Home().app()
+

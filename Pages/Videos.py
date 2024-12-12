@@ -11,6 +11,7 @@ class Videos:
         self.cap = None
 
     def app(self):
+        st.write("##")
         st.title('Video stream in Streamlit')
 
         source_option = st.selectbox(
